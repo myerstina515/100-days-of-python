@@ -4,9 +4,10 @@ import Typography from '@material-ui/core/Typography';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
 import "./Body.scss";
-import Day1 from '../assets/PythonDay1.jpg'
-import Day2 from '../assets/PythonDay2.jpg'
-import Day3 from '../assets/PythonDay3.jpg'
+import Day1 from '../assets/PythonDay1.jpg';
+import Day2 from '../assets/PythonDay2.jpg';
+import Day3 from '../assets/PythonDay3.jpg';
+import Day4 from '../assets/PythonDay4.jpg';
 
 const Body = () => {
   const images = [Day1, Day2]
@@ -45,6 +46,15 @@ const Body = () => {
               Day 23: Choose your Adventure!
             </Typography>
             <Button href="https://replit.com/@TinaFielder/treasure-island-start?v=1">Go see it!</Button>
+          </CardContent>
+        </Card>
+        <Card className="root" variant="outlined">
+          <CardContent class="backContent">
+            <img id="day1" alt="card content" src={Day4} />
+            <Typography className="question" color="textSecondary" gutterBottom>
+              Rock, Paper, Scissors
+            </Typography>
+            <Button href="https://replit.com/@TinaFielder/rock-paper-scissors-start?v=1">Go see it!</Button>
           </CardContent>
         </Card>
     </div>
