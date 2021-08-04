@@ -16,10 +16,10 @@ const Body = () => {
         <Card key={x.id} className="root" variant="outlined">
           <CardContent className="backContent">
             <img id="day1" alt="card content" src={x.images} />
-            <Typography className="question" color="textSecondary" gutterBottom>
+            <Typography className="question" color="textSecondary">
               {x.title}
             </Typography>
-            <Button href={x.link}>Go see it!</Button>
+            <Button className="button" href={x.link}>Go see it!</Button>
           </CardContent>
         </Card>
       ))}
