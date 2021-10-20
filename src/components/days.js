@@ -5,8 +5,8 @@ import Day4 from '../assets/PythonDay4.jpg';
 import Day5 from '../assets/PythonDay5.jpg';
 import Day7 from '../assets/PythonDay7.jpg';
 import Day8 from '../assets/PythonDay8.jpg';
-import Day9 from '../assets/PythonDay9.jpg';
-import Day10 from '../assets/PythonDay10.jpg';
+import Day9 from '../assets/PythonDay9b.jpg';
+import Day10 from '../assets/PythonDay10b.jpg';
 
 const days = [
   {id: "day1", images: `${Day1}`, title: "Day 1: Band Name Generator", link: "https://replit.com/@TinaFielder/band-name-generator-start#main.py"},
